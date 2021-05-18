@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.first-button {
+    display: flex;
+    justify-content: center;
+}
+
+.first-button button {
+    color: white;
+    background-color: rgb(0, 255, 85);
+    border: none;
+}
