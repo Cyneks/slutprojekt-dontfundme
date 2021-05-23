@@ -1,32 +1,32 @@
 .navbar {
-    list-style-type: none;
-    font-family: 'Arvo', sans-serif;
-    margin: 0;
-    margin-bottom: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-  }
+  list-style-type: none;
+  font-family: 'Arvo', sans-serif;
+  margin: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
   
+.navbar li {
+  float: left;
+}
+  
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+.navbar li a:hover {
+  color: white;
+  background-color: rgb(0, 255, 85);
+}
+  
+@media screen and (max-width: 767px) {
   .navbar li {
-    float: left;
+     float: none;
   }
-  
-  .navbar li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .navbar li a:hover {
-    color: white;
-    background-color: rgb(0, 255, 85);
-  }
-  
-  @media screen and (max-width: 767px) {
-    .navbar li {
-      float: none;
-    }
-  }
+}
