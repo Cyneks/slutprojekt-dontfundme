@@ -5,20 +5,19 @@ html {
 }
 
 h1 {
+    position: absolute;
+    bottom: 60%;
+    left: 42%;
     font-family: 'Arvo', sans-serif;
     text-align: center;
-    color: rgb(65, 59, 59);
+    color: black;
     font-size: 45px;
-    padding-top: 10%;
-}
-
-h1::first-letter {
-    color: rgb(0, 255, 85);
 }
 
 .first-button {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 43.9%;
+    bottom: 50%;
 }
 
 .first-button a {
