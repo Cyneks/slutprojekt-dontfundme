@@ -1,26 +1,42 @@
 html {
     font-family: sans-serif;
+    background-image: url('image.png');
+    background-size: cover;
 }
 
 h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-.first-button {
-    display: flex;
-    justify-content: center;
-}
-
-.first-button button {
+    font-family: 'Arvo', sans-serif;
     color: white;
-    background-color: rgb(0, 255, 85);
+}
+
+h1::first-letter {
+    color: rgb(0, 255, 85);
+}
+
+h2, h3 {
+    font-family: 'Arvo', sans-serif;
+}
+
+p {
+    padding: 0% 10%;
+    padding-bottom: 5%;
+}
+
+.content {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
+    width: 76%; 
+    margin: auto;
+}
+
+.donate button {
+    position: absolute;
+    top: 310px;
+    left: 32%;
+    padding: 20px 50px;
+    font-size: 18px;
+    color: white;
+    background-color:rgb(0, 255, 85);
     border: none;
 }
