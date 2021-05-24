@@ -1,6 +1,9 @@
 html {
     font-family: sans-serif;
     background-image: url('../images/firstpage.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -26,7 +29,7 @@ h2, h3 {
 }
 
 p {
-    padding: 0% 12%;
+    padding: 0% 18%;
 }
 
 .main {
@@ -35,8 +38,8 @@ p {
 
 .goal {
     position: absolute;
-    top: 295px;
-    left: 28%;
+    top: 335px;
+    left: 25%;
     font-size: 95%;
 }
 
@@ -46,8 +49,8 @@ ul {
 
 .donate button {
     position: absolute;
-    top: 340px;
-    left: 28%;
+    top: 380px;
+    left: 25%;
     padding: 20px 50px;
     font-size: 18px;
     color: white;
@@ -59,4 +62,81 @@ ul {
     font-size: 75%;
     color: rgb(155, 155, 155);
     padding: 5px 0;
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        text-align: center;
+    }
+
+    .content {
+        width: 90%;
+        border-top: grey solid;
+    }
+
+    p {
+        padding: 0% 5%;
+        font-size: 15px;
+    }
+
+    .goal {
+        position: relative;
+        margin: auto;
+        left: 0%;
+        top: 10px;
+    }
+
+    .donate button {
+        position: relative;
+        top: 20px;
+        left: 0%;
+        margin: auto;
+        padding: 15px 50px;
+    }
+
+    .bottom p {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-width: 321px) {
+    h1 {
+        text-align: center;
+    }
+
+    .content {
+        width: 90%;
+        border-top: grey solid;
+    }
+
+    p {
+        padding: 0% 5%;
+        font-size: 15px;
+    }
+
+    .goal {
+        position: relative;
+        margin: auto;
+        left: 0%;
+        top: 10px;
+    }
+
+    .donate button {
+        position: relative;
+        left: 0%;
+        top: 20px;
+        padding: 15px 50px;
+    }
+
+    .bottom p {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
 }

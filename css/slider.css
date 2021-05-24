@@ -1,7 +1,7 @@
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 500px;
+  max-width: 650px;
   position: relative;
   left: 10%;
   margin: auto;
@@ -36,7 +36,7 @@
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(51, 255, 0, 0.8);
+  background-color: rgba(27, 27, 27, 0.863);
 }
 
 .text {
@@ -92,4 +92,46 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media screen and (max-width: 320px) {
+  .slideshow-container {
+    max-width: 220px;
+    left: 0%;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .bulletpoints {
+    left: 0%;
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 414px) and (min-width: 321px) {
+  .slideshow-container {
+    max-width: 250px;
+    left: 0%;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .bulletpoints {
+    left: 0%;
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
 }
