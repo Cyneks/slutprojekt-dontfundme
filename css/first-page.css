@@ -32,7 +32,19 @@ h1 {
     padding: 20px 55px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 320px) {
+    h1 {
+        top: 29%;
+        font-size: 40px;
+    }
+
+    .first-button a {
+        font-size: 20px;
+        padding: 10px 13px;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-width: 321px) {
     h1 {
         top: 35%;
         font-size: 40px;
