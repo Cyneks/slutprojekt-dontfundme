@@ -90,3 +90,15 @@ h1 {
         padding: 30px 55px;
     }
 }
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+}

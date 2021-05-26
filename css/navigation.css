@@ -50,7 +50,7 @@
 @media screen and (max-width: 768px) and (min-width: 415px) {
   .navbar {
     margin: auto;
-    width: 90%;
+    width: 85%;
   }
 
   .navbar li {
