@@ -139,5 +139,15 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
+  .slideshow-container {
+    max-width: 530px;
+  }
 
+  .text {
+    font-size: 19px;
+  }
+
+  .bulletpoints {
+    left: 54%; 
+  }
 }
