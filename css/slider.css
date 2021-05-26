@@ -151,3 +151,11 @@
     left: 54%; 
   }
 }
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .slideshow-container {
+    max-width: 400px;
+    left: 12%;
+  }
+
+}

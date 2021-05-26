@@ -200,6 +200,16 @@ ul {
     }
 }
 
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+    .goal {
+        top: 280px;
+    }
+
+    .donate button {
+        top: 320px;
+    }
+}
+
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     html {
       transform: rotate(-90deg);
