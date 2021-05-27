@@ -47,7 +47,7 @@ ul {
     list-style-type: none;
 }
 
-.donate button {
+.donate a {
     position: absolute;
     top: 380px;
     left: 25%;
@@ -83,10 +83,10 @@ ul {
         position: relative;
         margin: auto;
         left: 0%;
-        top: 10px;
+        top: 10%;
     }
 
-    .donate button {
+    .donate a {
         position: relative;
         top: 20px;
         left: 0%;
@@ -118,10 +118,10 @@ ul {
         position: relative;
         margin: auto;
         left: 0%;
-        top: 10px;
+        top: 5%;
     }
 
-    .donate button {
+    .donate a {
         position: relative;
         left: 0%;
         top: 20px;
@@ -154,7 +154,7 @@ ul {
         font-size: 12px;
     }
 
-    .donate button {
+    .donate a {
         top: 400px;
         left: 15%;
         padding: 15px 30px;
@@ -190,7 +190,7 @@ ul {
         left: 14%;
     }
 
-    .donate button {
+    .donate a {
         top: 500px;
         left: 14%;
     }
@@ -205,19 +205,8 @@ ul {
         top: 280px;
     }
 
-    .donate button {
+    .donate a {
         top: 320px;
     }
 }
 
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
-}
